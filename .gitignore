@@ -30,3 +30,25 @@
 *.exe
 *.out
 *.app
+trojan
+
+# Config files
+*.json
+
+# Key and certificate files
+*.pem
+
+# Systemd service files
+*.service
+
+# Cmake files
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+build/

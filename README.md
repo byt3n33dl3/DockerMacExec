@@ -35,9 +35,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Dependencies
 
-- [CMake](https://cmake.org/) >= 3.7.2
-- [Boost](http://www.boost.org/) >= 1.66.0
-- [OpenSSL](https://www.openssl.org/) >= 1.1.0
+- [CMake](https://cmake.org/) 
+- [Boost](http://www.boost.org/)
+- [OpenSSL](https://www.openssl.org/)
 - [libmysqlclient](https://dev.mysql.com/downloads/connector/c)
 - [EMailSpam]()
 

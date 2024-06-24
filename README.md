@@ -3,10 +3,6 @@
 
 ## MALDEV
 
-![Ransomware](https://raw.githubusercontent.com/MISP/intelligence-icons/52d597bf00d58b92ee8809802b507c6d0755235f/svg/ransomware.svg)
-![Malware](https://raw.githubusercontent.com/MISP/intelligence-icons/513abc840b7ac92e4f8a4a7ecab2964007bf25f5/svg/malware.svg)
-![Threat Actor](https://raw.githubusercontent.com/MISP/intelligence-icons/513abc840b7ac92e4f8a4a7ecab2964007bf25f5/svg/threat_actor.svg)
-
 - [Container image with malware and crypto miner for testing purposes](#container-image-with-malware-and-crypto-miner-for-testing-purposes)
   - [Deployment of the vulnerable image](#deployment-of-the-vulnerable-image)
     - [CloudFormation - EC2 instance](#cloudformation---ec2-instance)

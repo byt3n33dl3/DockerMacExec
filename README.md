@@ -1,6 +1,27 @@
 [![Build Status](https://dev.azure.com/GreaterFire/Trojan-GFW/_apis/build/status/trojan-gfw.trojan?branchName=master)](https://dev.azure.com/GreaterFire/Trojan-GFW/_build/latest?definitionId=5&branchName=master)
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/malware-cryptominer-container)](https://artifacthub.io/packages/search?repo=malware-cryptominer-container)
 
-## TROJAN && EmailSpamm
+## MALDEV
+
+![Ransomware](https://raw.githubusercontent.com/MISP/intelligence-icons/52d597bf00d58b92ee8809802b507c6d0755235f/svg/ransomware.svg)
+![Malware](https://raw.githubusercontent.com/MISP/intelligence-icons/513abc840b7ac92e4f8a4a7ecab2964007bf25f5/svg/malware.svg)
+![Threat Actor](https://raw.githubusercontent.com/MISP/intelligence-icons/513abc840b7ac92e4f8a4a7ecab2964007bf25f5/svg/threat_actor.svg)
+
+- [Container image with malware and crypto miner for testing purposes](#container-image-with-malware-and-crypto-miner-for-testing-purposes)
+  - [Deployment of the vulnerable image](#deployment-of-the-vulnerable-image)
+    - [CloudFormation - EC2 instance](#cloudformation---ec2-instance)
+    - [Amazon ECS](#amazon-ecs)
+    - [Amazon EKS](#amazon-eks)
+  - [Scanner tests](#scanner-tests)
+    - [Aqua Scanner](#aqua-scanner)
+    - [Trivy Scanner](#trivy-scanner)
+    - [Prisma Cloud Scanner](#prisma-cloud-scanner)
+    - [Wiz.io Scanner](#wizio-scanner)
+    - [Anchore - Grype Scanner](#anchore---grype-scanner)
+    - [Snyk Scanner](#snyk-scanner)
+    - [ClamAV](#clamav)
+  - [Verify image integrity](#verify-image-integrity)
+  - [Local tests](#local-tests)
 
 Live worker hosted at [@](https://spamchannel.haxxx.workers.dev)
 
